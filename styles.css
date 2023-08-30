@@ -1,39 +1,37 @@
-/* styles.css */
-
 /* Defina um estilo de fonte para todo o corpo */
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+    font-family: Arial, sans-serif; /* define a fonte padrão para todo o corpo */
+    margin: 20px; /* adiciona a margem em pixel */
 }
 
 /* Estilize os cabeçalhos */
 h1, h2, h3 {
-    color: #333;
+    color: #333; /* cor do texto */
 }
 
 /* Estilize os parágrafos */
 p {
-    line-height: 1.6;
+    line-height: 1.6; /* define o espaçamento entre as linhas */
     margin-bottom: 15px;
 }
 
 /* Estilize os links */
 a {
     color: #007bff;
-    text-decoration: none;
+    text-decoration: none; /* remove a decoração padrão */
 }
 
 /* Estilize a tabela */
 table {
-    border-collapse: collapse;
-    width: 100%;
-    border: 1px solid #ddd;
+    border-collapse: collapse; /*  faz com que as bordas das células colapsem, criando uma aparência mais limpa */
+    width: 100%; /* garente que a tabela ocupe todo o espaço disponível */
+    border: 1px solid #ddd; /* adiciona uma borda ao redor da tabela */
 }
 
 th, td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
+    padding: 8px; /* preenchimento */
+    text-align: left; /* alinhamento de texto à esquerda */
+    border-bottom: 1px solid #ddd; /* borda inferior para separar as células */
 }
 
 /* Estilize o formulário */
@@ -41,6 +39,7 @@ form {
     margin-top: 20px;
 }
 
+/* torna as etiquetas de entrada do formulário mais legíveis, definindo-as como elementos de bloco */
 label {
     display: block;
     margin-bottom: 5px;
@@ -51,12 +50,12 @@ input, textarea, button {
     padding: 8px;
     width: 100%;
     border: 1px solid #ddd;
-    border-radius: 4px;
+    border-radius: 4px; /* da um leve arredondamento às bordas */
 }
 
 button {
-    background-color: #007bff;
+    background-color: #007bff; /* cor de fundo */
     color: #fff;
-    border: none;
-    cursor: pointer;
+    border: none; /* borda ausente */
+    cursor: pointer; /* cursor de ponteiro ao passar o mouse */
 }
