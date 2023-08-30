@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Defina um estilo de fonte para todo o corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Estilize os cabeçalhos */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Estilize os parágrafos */
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Estilize os links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Estilize a tabela */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilize o formulário */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea, button {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
